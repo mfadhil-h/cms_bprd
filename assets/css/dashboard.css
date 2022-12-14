@@ -1,0 +1,46 @@
+#predefined-daterange {
+	background-color: transparent;
+	border-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	padding: 7px 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+	color: #919ca8;
+}
+
+.border {
+	border-style: solid;
+	border-width: medium;
+}
+
+div.callout {
+	cursor: pointer;
+}
+
+div.callout h4 {
+	font-size: 13px;
+}
+
+p.desc{
+  line-height: 5px;
+  font-size: 12px;
+}
+
+h3.data-kecamatan-merchant{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.dota {
+   border-radius: 50%;
+    width: 90px;
+    height: 70px;
+    padding: 8px;
+    
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}

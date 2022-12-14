@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&.css);
+@media print {
+  #tools-section {
+    display: none;
+  }
+
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+   }
+   .col-lg-12 {
+        width: 100%;
+   }
+   .col-lg-11 {
+        width: 91.66666667%;
+   }
+   .col-lg-10 {
+        width: 83.33333333%;
+   }
+   .col-lg-9 {
+        width: 75%;
+   }
+   .col-lg-8 {
+        width: 66.66666667%;
+   }
+   .col-lg-7 {
+        width: 58.33333333%;
+   }
+   .col-lg-6 {
+        width: 50%;
+   }
+   .col-lg-5 {
+        width: 41.66666667%;
+   }
+   .col-lg-4 {
+        width: 33.33333333%;
+   }
+   .col-lg-3 {
+        width: 25%;
+   }
+   .col-lg-2 {
+        width: 16.66666667%;
+   }
+   .col-lg-1 {
+        width: 8.33333333%;
+   }
+}.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.bordered-round {
+  border: 1px solid #333;
+}
+.bordered-top {
+  border-top: 1px solid #333;
+}
+.bordered-left {
+  border-left: 1px solid #333;
+}
+.bordered-right {
+  border-right: 1px solid #333;
+}
+.bordered-bottom {
+  border-bottom: 1px solid #333;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.align-top {
+  vertical-align: top;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 5px;
+  color: #333;
+  font-family: "Poppins";
+}
+a {
+  cursor: pointer;
+  color: inherit;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #18c5a9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h6 {
+  font-weight: 500;
+}
+small {
+  font-size: 85%;
+}
+button {
+  cursor: pointer;
+}
+strong {
+  font-weight: 500;
+}
+b,
+dt {
+  font-weight: 600;
+}
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+canvas,
+img,
+input,
+textarea {
+  max-width: 100%;
+}
+.report {
+  margin: 0 auto;
+  background-color:#FFFFFF ;
+}
+
+span {
+  font-weight: bold;
+}
+
+td {
+	font-size: 12px;
+}
+#page-wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+#page-wrapper #tools-section {
+  border-bottom: 1px solid #333;
+  text-align: center;
+  margin: 10px 0 25px;
+  padding-bottom: 5px;
+}
+#page-wrapper #tools-section > button {
+  border: 1px solid #333;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  background-color: #333;
+  color: #fff;
+  padding: 3px 15px;
+  font-size: 12px;
+}
+#page-wrapper #tools-section > button:hover {
+  background-color: #1f1f1f;
+}
+table{
+
+font-size: 11px;
+}

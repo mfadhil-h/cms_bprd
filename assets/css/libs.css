@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&.css);
+.table th{
+	background-color: #d2d4dc;
+}
+
+#global-modal .modal-header{
+	background-color: #337ab7;
+	color: #fff;
+}
+#global-modal button.close{ color: #fff; }
+#global-modal .ibox-head{
+	color: #b4bcc8;
+	background-color: #304357;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.bordered-round {
+  border: 1px solid #333;
+}
+.bordered-top {
+  border-top: 1px solid #333;
+}
+.bordered-left {
+  border-left: 1px solid #333;
+}
+.bordered-right {
+  border-right: 1px solid #333;
+}
+.bordered-bottom {
+  border-bottom: 1px solid #333;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.align-top {
+  vertical-align: top;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 5px;
+  color: #333;
+  font-family: "Poppins";
+}
+a {
+  cursor: pointer;
+  color: inherit;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #18c5a9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h6 {
+  font-weight: 500;
+}
+small {
+  font-size: 85%;
+}
+button {
+  cursor: pointer;
+}
+strong {
+  font-weight: 500;
+}
+b,
+dt {
+  font-weight: 600;
+}
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+canvas,
+img,
+input,
+textarea {
+  max-width: 100%;
+}
+.report {
+  margin: 0 auto;
+  background-color:#FFFFFF ;
+}
+
+span.side-bar {
+  font-weight: bold;
+}
+
+td {
+  font-size: 12px;
+}
+#page-wrapper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+#page-wrapper #tools-section {
+  border-bottom: 1px solid #333;
+  text-align: center;
+  margin: 10px 0 25px;
+  padding-bottom: 5px;
+}
+#page-wrapper #tools-section > button {
+  border: 1px solid #333;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  background-color: #333;
+  color: #fff;
+  padding: 3px 15px;
+  font-size: 12px;
+}
+#page-wrapper #tools-section > button:hover {
+  background-color: #1f1f1f;
+}
